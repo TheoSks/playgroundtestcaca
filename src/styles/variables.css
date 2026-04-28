@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --hunter-green: #386641;
+  --sage-green: #6a994e;
+  --yellow-green: #a7c957;
+  --vanilla-cream: #f2e8cf;
+  --blushed-brick: #bc4749;
+
+  --hunter-green-deep: #2c5634;
+  --sage-green-soft: #83ab68;
+  --yellow-green-soft: #c4de7f;
+  --vanilla-cream-deep: #e6d9bb;
+  --blushed-brick-deep: #9d3537;
+
+  --color-bg: var(--vanilla-cream);
+  --color-bg-alt: #f8f2e2;
+  --color-ink: #1c3521;
+  --color-ink-soft: rgba(28, 53, 33, 0.72);
+  --color-card: rgba(248, 242, 226, 0.92);
+  --color-card-dark: rgba(30, 61, 37, 0.92);
+
+  --grad-hunter: linear-gradient(140deg, var(--hunter-green) 0%, var(--hunter-green-deep) 100%);
+  --grad-sage: linear-gradient(140deg, var(--sage-green) 0%, var(--sage-green-soft) 100%);
+  --grad-brick: linear-gradient(135deg, var(--blushed-brick) 0%, var(--blushed-brick-deep) 100%);
+  --grad-lime: linear-gradient(130deg, var(--yellow-green) 0%, var(--yellow-green-soft) 100%);
+  --grad-paper: linear-gradient(145deg, var(--vanilla-cream) 0%, var(--vanilla-cream-deep) 100%);
+
+  --font-main: 'Outfit', sans-serif;
+  --font-decorative: 'Instrument Serif', serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+  --space-4xl: 7rem;
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --stroke-soft: 1px solid rgba(28, 53, 33, 0.18);
+  --stroke: 2px solid var(--color-ink);
+  --stroke-strong: 3px solid var(--color-ink);
+
+  --shadow-brutal-sm: 3px 3px 0 var(--color-ink);
+  --shadow-brutal: 6px 6px 0 var(--color-ink);
+  --shadow-brutal-lg: 9px 9px 0 var(--color-ink);
+
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-elastic: cubic-bezier(0.2, 1.2, 0.3, 1);
+  --duration-fast: 0.22s;
+  --duration-normal: 0.45s;
+  --duration-slow: 0.9s;
+
+  --max-width: 1240px;
+  --nav-height: 84px;
+}
